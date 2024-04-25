@@ -7,7 +7,7 @@ playerChoise = input("entrer...\n1 pour Piere,\n2 pour Feuille or \n3 pour cisea
 
 player = int(playerChoise)
 
-if player < 1 | player > 3 :
+if player < 1 or player > 3 :
     sys.exit("vous devez choisir un nom entre 1 2 3")
 
 computerChoise = random.choice("123")
